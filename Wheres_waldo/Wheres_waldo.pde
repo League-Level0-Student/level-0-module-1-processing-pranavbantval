@@ -12,7 +12,7 @@ void draw() {
       if(mousePressed){
 println("X: " + mouseX + " Y: " + mouseY);
       // 7. If the mouse is on Waldo, print “Waldo found!”
-if(mouseX<620 && mouseX>600&& mouseY<250 && mouseY>270){
+if(mouseX<620 && mouseX>600 && mouseY>250 &&mouseY<270){
   playWoohoo();
 }
 else{
